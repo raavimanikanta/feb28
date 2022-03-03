@@ -1,0 +1,32 @@
+.box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
+    box-shadow: 3px 3px 8px grey;
+    text-shadow: 2px 2px 5px green;
+
+}
+h1{
+    text-shadow: 2px 2px 3px blue;
+}
+.cell{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    box-shadow: 3px 3px 10px grey;
+    margin-left: 300px;
+    transition: all 2s;
+}
+.cell:hover{
+    transform: rotate(360deg);
+}
+.cell1{
+    width: 200px;
+    height: 250px;
+    background-color: coral;
+    transition: width 2s ease-in;
+    box-shadow: 6px 6px 15px black ;
+}
+.cell1:hover{
+    width: 500px;
+}
